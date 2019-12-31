@@ -5,7 +5,7 @@ import './Home.css';
 const Home = props => {
 	return (
 		<div>
-			this is homepage.
+			this is home page.
 		</div>
 	)
 }
