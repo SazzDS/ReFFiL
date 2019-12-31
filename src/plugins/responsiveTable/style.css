@@ -1,0 +1,268 @@
+
+
+/*table.table.table-responsive.recycleBin tbody {
+    background: #ffe8e8;
+}
+
+table.table.table-responsive.recycleBin tbody td.highlighter {
+    background: rgba(244, 97, 97, 0.55);
+}
+
+thead,tbody{
+    background: #fdffed;
+}
+
+tbody td.highlighter {
+    background: rgba(245, 255, 170, 0.55);
+}
+
+table.table.table-bordered {
+    border-top:1px solid #004144;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table.table.table-bordered {
+    font-family: 'Montserrat', sans-serif;
+}
+
+table.table.table-bordered thead tr th:first-child {
+	
+    border-bottom: 1px solid #004144;
+}
+
+table.table.table-bordered thead tr th:last-child {
+    
+    border-bottom: 1px solid #004144;
+}
+
+table.table.table-bordered tbody tr td:first-child {
+    
+    border-bottom: 1px solid #004144;
+}
+
+table.table.table-bordered tbody tr td:last-child {
+    
+    border-bottom: 1px solid #004144;
+}
+
+table.table.table-bordered th {
+    border-color: #aaa;
+}
+
+table.table.table-bordered td {
+	border-color: #aaa;
+    border-style: dotted;
+}
+
+table.data-table-list th {
+    font-size-adjust: 0.5;
+    padding
+}
+
+table.data-table-list td {
+    font-size-adjust: 0.5;
+    padding
+}
+
+table.table.table-responsive tr {
+    width: 100% !important;
+    text-align: center;
+    border-top : none;
+    border-bottom : 1px solid #004144;
+}
+
+table.table.table-responsive {
+    border-top :  3px solid #004144;
+}
+
+table.table.table-responsive thead,tbody {
+    border-bottom : 3px solid #004144;
+}
+
+table.table.table-responsive thead tr th {
+    text-align: center;
+    padding: 10px 0;
+    color: #3f3f3f;
+}
+
+table.table.table-responsive tbody tr {
+    width: 100% !important;
+    text-align: center;
+}
+
+table.table.table-responsive tbody tr td {
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+
+table.table.table-responsive tbody tr td i.fa{
+    padding: 0 10px;
+}
+
+
+table.table.table-responsive tbody > tr:hover > td {
+    background: #fff3ed;
+}
+
+table.table.table-responsive.recycleBin tbody > tr:hover > td.highlighter {
+    background: rgba(244, 97, 97, 0.55);
+}
+
+table.table.table-responsive tbody tr td:hover {
+    background: #f9e1ca;
+}
+
+table.table.table-responsive tbody tr:hover td.highlighter {
+    background: rgba(245, 255, 170, 0.55);
+}
+
+table.table.table-responsive tbody tr td.highlighter:hover {
+    background: rgba(245, 255, 170, 0.85);
+}
+
+table.table.table-responsive.recycleBin tbody tr:hover td.highlighter {
+    background: rgba(244, 97, 97, 0.55);
+}
+
+table.table.table-responsive.recycleBin tbody > tr:hover > td.highlighter:hover {
+    background: rgba(244, 97, 97, 0.75);
+}
+
+
+table.table.dataInputTable tbody tr td {
+    padding: 0;
+}
+
+*/
+
+
+table.table.table-responsive.table-striped tbody tr td i.fa{
+    padding: 0 10px;
+}
+/*table.data-table-list th {
+    font-size-adjust: 0.5;
+    padding: 0 10px;
+}
+
+table.data-table-list td {
+    font-size-adjust: 0.5;
+    padding: 0 10px;
+}*/
+
+table.table.table-responsive.table-striped.recycleBin thead {
+    background: #c61755;
+}
+
+table.table.table-responsive.table-striped.recycleBin thead tr th {
+    font-weight: normal;
+    border: 1px solid #c61755;
+    /*border-radius: 50%;*/
+}
+
+
+table.table.table-responsive.table-striped tbody tr:hover td.highlighter {
+    background: rgba(245, 255, 170, 0.55);
+}
+
+table.table.table-responsive.table-striped tbody tr td.highlighter:hover {
+    background: rgba(245, 255, 170, 0.85);
+}
+
+
+table.table.table-responsive.table-striped > tbody > tr:nth-child(2n+1) > td, table.table.table-responsive.table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #f8f7ff;
+}
+
+table.table.table-responsive.recycleBin.table-striped > tbody > tr:nth-child(2n+1) > td, table.table.table-responsive.recycleBin.table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #fff7f8;
+}
+
+
+table.table.table-responsive.table-striped.recycleBin tbody tr:hover td.highlighter {
+    background: rgba(244, 97, 97, 0.55);
+}
+
+table.table.table-responsive.table-striped.recycleBin tbody tr td.highlighter:hover {
+    background: rgba(244, 97, 97, 0.75);
+}
+
+
+
+table.table.table-responsive tbody tr td:hover {
+    background: #f9e1ca;
+}
+
+table.table.table-responsive.recycleBin tbody tr td:hover {
+    background: rgba(244, 97, 97, 0.55);
+}
+
+table.table.table-responsive thead{
+    /*position: absolute;*/
+    /*width: inherit;*/
+    /*-webkit-box-shadow: 2px 13px 15px 1px rgba(0, 0, 0, 0.28);
+    box-shadow: 2px 13px 15px 1px rgba(0, 0, 0, 0.28);*/
+    background: #6D7AE0;
+    color: #fff;
+    font-family: 'Quicksand-Regular';
+}
+
+table.table.table-responsive thead tr{
+    -webkit-box-shadow: 0px 5px 19px 1px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.38);
+    /*z-index: 2000 !important;*/
+}
+
+table.table.table-responsive thead tr th {
+    font-weight: normal;
+    border: 1px solid #6D7AE0;
+    /*border-radius: 50%;*/
+}
+
+table.table.table-responsive tbody {
+    /*z-index: 1000 !important;*/
+}
+
+
+
+table.table.table-responsive thead tr th.w10pcnt{
+    width: 10% !important;
+}
+table.table.table-responsive thead tr th.w15pcnt {
+    width: 15% !important;
+}
+
+table.table.table-responsive thead tr th.w20pcnt {
+    width: 20% !important;
+}
+table.table.table-responsive thead tr th.w25pcnt {
+    width: 25% !important;
+}
+table.table.table-responsive thead tr th.w50pcnt{
+    width: 50% !important;
+}
+
+
+
+
+table.table.table-responsive thead tr th.w5pcnt{
+    width: 5% !important;
+}
+table.table.table-responsive thead tr th.w30pcnt {
+    width: 30% !important;
+}
+
+table.table.table-responsive thead tr th.w20pcnt {
+    width: 20% !important;
+}
+table.table.table-responsive thead tr th.w25pcnt {
+    width: 25% !important;
+}
+table.table.table-responsive thead tr th.w40pcnt{
+    width: 50% !important;
+}
+table.table.table-responsive thead tr th.w35pcnt{
+    width: 35% !important;
+}
