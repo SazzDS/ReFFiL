@@ -42,6 +42,18 @@ export default class Navbar extends React.Component {
 			text: 'Collapse',
 			documentation: '/documentation',
 		},
+		{
+			id: 6,
+			path: '/Accordion',
+			text: 'Accordion',
+			documentation: '/documentation',
+		},
+		{
+			id: 7,
+			path: '/Navbar',
+			text: 'Navbar',
+			documentation: '/documentation',
+		},
 		]
 	}
 

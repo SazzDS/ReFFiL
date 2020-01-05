@@ -4,6 +4,8 @@ import './Documentation.css';
 import DropdownSection from './section/Dropdown/Dropdown';
 import IntroductionSection from './section/Introduction/Introduction';
 import CollapseSection from './section/Collapse/Collapse';
+import AccordionSection from './section/Accordion/Accordion';
+import NavbarSection from './section/Navbar/Navbar';
 import ErrorSection from '../ErrorPage/ErrorPage';
 
 var MenuItems = [{text: 'Home', path: '/', classes: 'dropdown-item'}, {text: 'About', path: '/about', classes: 'dropdown-item'}, {text: 'Contact', path: '/contact', classes: 'dropdown-item'}];
@@ -13,11 +15,15 @@ const Documentation = () => {
 	var dir = window.location.pathname;
 	console.log(dir.split('/').pop());
 	if(dir.split('/').pop() === 'Introduction') {
-		var tempElement = <IntroductionSection />	
+		var tempElement = <IntroductionSection />
 	} else if(dir.split('/').pop() === 'Dropdown') {
-		var tempElement = <DropdownSection />	
+		var tempElement = <DropdownSection />
 	} else if(dir.split('/').pop() === 'Collapse') {
-		var tempElement = <CollapseSection />	
+		var tempElement = <CollapseSection />
+	} else if(dir.split('/').pop() === 'Accordion') {
+		var tempElement = <AccordionSection />
+	} else if(dir.split('/').pop() === 'Navbar') {
+		var tempElement = <NavbarSection />
 	} else {
 		var tempElement = <ErrorSection />
 	}
