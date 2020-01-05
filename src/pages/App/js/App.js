@@ -11,7 +11,6 @@ import {
   Route,
   useParams
 } from "react-router-dom";
-
   // BrowserRouter as Router
 // ,
 //   Link

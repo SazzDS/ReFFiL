@@ -16,7 +16,7 @@ const About = () => {
 		<div>
 			<Hero hero="roomsHero">
 				<Banner title="About Page" subtitle="This is About Page">
-					<Link to="/Documentation/getStarted/"><button className="btn btn-primary">Explore Documentation</button></Link>
+					<Link to="/documentation/Introduction"><button className="btn btn-primary">Explore Documentation</button></Link>
 				</Banner>
 			</Hero>
 			Hello from About Pages

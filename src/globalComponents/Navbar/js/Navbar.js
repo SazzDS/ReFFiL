@@ -32,26 +32,44 @@ export default class Navbar extends React.Component {
 		},
 		{
 			id: 4,
+			path: '/General',
+			text: 'General',
+			documentation: '/documentation',
+		},
+		{
+			id: 5,
 			path: '/Dropdown',
 			text: 'Dropdown',
 			documentation: '/documentation',
 		},
 		{
-			id: 5,
+			id: 6,
 			path: '/Collapse',
 			text: 'Collapse',
 			documentation: '/documentation',
 		},
 		{
-			id: 6,
+			id: 7,
 			path: '/Accordion',
 			text: 'Accordion',
 			documentation: '/documentation',
 		},
 		{
-			id: 7,
+			id: 8,
 			path: '/Navbar',
 			text: 'Navbar',
+			documentation: '/documentation',
+		},
+		{
+			id: 9,
+			path: '/ImageSlider',
+			text: 'ImageSlider',
+			documentation: '/documentation',
+		},
+		{
+			id: 10,
+			path: '/DatePicker',
+			text: 'DatePicker',
 			documentation: '/documentation',
 		},
 		]
