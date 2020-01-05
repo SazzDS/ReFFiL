@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+xmp * {
+  color: rgb(8, 200, 35) !important;
+}
+
+.dropdown {
+  margin-top: 5px;
+}
+
+.dropdown p {
+  margin: 0;
+}

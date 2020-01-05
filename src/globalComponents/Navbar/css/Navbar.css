@@ -1,0 +1,74 @@
+:root {
+  --mainBrown: #2d1ef1;
+  --mainYellow: #ff9e09;
+  --mainYellowRGB: rgba(255,158,9,0.5);
+  --mainGrey: #ece8dc;
+  --mainWhite: #fff;
+  --mainWhiteRGB: rgba(255, 255, 255, 0);
+  --mainDark: #222;
+};
+@font-face {
+    font-family: 'qsnd';
+    src: url('../../../fonts/quicksand/Quicksand_Book.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: 'pirulen';
+    src: url('../../../fonts/pirulen.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ply';
+    src: url('../../../fonts/Play-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'monster';
+    src: url('../../../fonts/monsterrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roma';
+    src: url('../../../fonts/Michroma.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ptsun';
+    src: url('../../../fonts/PT_Sans-Caption-Web-Regular.ttf') format('truetype');
+}
+
+
+.navbar-brand img {
+  width: 30px;
+}
+
+h1 {
+  font-family: "pirulen" !important;
+}
+
+h2, h3 {
+  font-family: "ptsun" !important;
+}
+
+h4, h5, h6 {
+  font-family: "roma" !important;
+}
+
+p {
+  font-family: "monster" !important;
+  color: var(--mainDark);
+  opacity: 1;
+}
+
+body {
+  font-family: "monster" !important;
+  background: var(--mainWhite);
+  color: var(--mainDark);
+  color: #000;
+  opacity: 1;
+}
+
+
+.text-yellow {
+  color: var(--mainYellow);
+}
