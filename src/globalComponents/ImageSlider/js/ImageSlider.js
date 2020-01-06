@@ -8,7 +8,7 @@ const ImageSlider = (props) => {
 				<ol className="carousel-indicators">
 					{props.slider.map((images, key) => {
 						return (
-							<li data-target="#carouselExampleCaptions" data-slide-to={key} className={images.status}></li>
+							<li key={key} data-target="#carouselExampleCaptions" data-slide-to={key} className={images.status}></li>
 						)
 					})}
 				</ol>

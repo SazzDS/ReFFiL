@@ -4,6 +4,7 @@ import Navbar from '../../../globalComponents/Navbar/js/Navbar';
 import Home from '../../Home/Home';
 import About from '../../About/About';
 import Documentation from '../../Documentation/Documentation';
+import HTTPRequests from '../../HTTPRequests/HTTPRequests';
 import ErrorPage from '../../ErrorPage/ErrorPage';
 import {
   Switch,
@@ -17,6 +18,7 @@ import {
 
 function App() {
   var dir = window.location.pathname;
+  // console.log(dir);
   return (
     <>
     <Switch>
@@ -27,6 +29,7 @@ function App() {
       <Route exact path="/" component={Home} />
 
       <Route exact path="/documentation/:slug" component={Documentation} />
+      <Route exact path="/requests/:slug" component={HTTPRequests} />
       <Route exact path="/about/" component={About} />
       <Route component={ErrorPage} />
     </Switch>

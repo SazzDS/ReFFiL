@@ -11,9 +11,6 @@ import ImageSliderSection from './section/ImageSlider/ImageSlider';
 import DatePickerSection from './section/DatePicker/DatePicker';
 import ErrorSection from '../ErrorPage/ErrorPage';
 
-var MenuItems = [{text: 'Home', path: '/', classes: 'dropdown-item'}, {text: 'About', path: '/about', classes: 'dropdown-item'}, {text: 'Contact', path: '/contact', classes: 'dropdown-item'}];
-var ButtonComponents = {className: 'btn dropdown-toggle', type: 'button', id: 'dropdownMenuButton', dataToggle: 'dropdown', ariaHaspopup: 'true', ariaExpanded: 'false'};
-			// <Dropdown data="Menu" pages={MenuItems} components={ButtonComponents} />
 const Documentation = () => {
 	var dir = window.location.pathname;
 	if(dir.split('/').pop() === 'Introduction') {

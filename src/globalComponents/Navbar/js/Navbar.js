@@ -72,6 +72,24 @@ export default class Navbar extends React.Component {
 			text: 'DatePicker',
 			documentation: '/documentation',
 		},
+		{
+			id: 11,
+			path: '/Home',
+			text: 'HTTPRequests',
+			documentation: '/requests',
+		},
+		{
+			id: 12,
+			path: '/GET',
+			text: 'GET',
+			documentation: '/requests',
+		},
+		{
+			id: 13,
+			path: '/POST',
+			text: 'POST',
+			documentation: '/requests',
+		},
 		]
 	}
 
