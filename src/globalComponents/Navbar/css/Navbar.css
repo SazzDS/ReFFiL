@@ -72,3 +72,9 @@ body {
 .text-yellow {
   color: var(--mainYellow);
 }
+
+nav.navbar.navbar-expand-sm.bg-light.navbar-light {
+  width: 100%;
+  position: fixed;
+  z-index: 999 !important;
+}

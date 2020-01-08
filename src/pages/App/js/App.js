@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/App.css';
 import Navbar from '../../../globalComponents/Navbar/js/Navbar';
+import Sidebar from '../../../globalComponents/Sidebar/js/Sidebar';
 import Home from '../../Home/Home';
 import About from '../../About/About';
 import Documentation from '../../Documentation/Documentation';
@@ -21,18 +22,25 @@ function App() {
   // console.log(dir);
   return (
     <>
-    <Switch>
-      <Navbar />
-      <Route path="/:id" children={<Child />} />
-    </Switch>
-    <Switch>
-      <Route exact path="/" component={Home} />
+      <div >
+        <Navbar />
+      </div>
+      <div className="row">
+        <Sidebar />
+        <div className="col-md-10" style={{marginTop: '58px'}}>
+          <Switch>
+            <Route path="/:id" children={<Child />} />
+          </Switch>
+          <Switch>
+            <Route exact path="/" component={Home} />
 
-      <Route exact path="/documentation/:slug" component={Documentation} />
-      <Route exact path="/requests/:slug" component={HTTPRequests} />
-      <Route exact path="/about/" component={About} />
-      <Route component={ErrorPage} />
-    </Switch>
+            <Route exact path="/documentation/:slug" component={Documentation} />
+            <Route exact path="/requests/:slug" component={HTTPRequests} />
+            <Route exact path="/about/" component={About} />
+            <Route component={ErrorPage} />
+          </Switch>
+        </div>
+      </div>
     </>
   );
 }
